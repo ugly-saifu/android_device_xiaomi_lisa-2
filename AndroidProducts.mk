@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xperience_lisa.mk
+    $(LOCAL_DIR)/blaze_lisa.mk
 
 COMMON_LUNCH_CHOICES := \
-    xperience_lisa-user \
-    xperience_lisa-userdebug \
-    xperience_lisa-eng
+    blaze_lisa-user \
+    blaze_lisa-userdebug \
+    blaze_lisa-eng
