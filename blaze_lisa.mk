@@ -13,15 +13,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/lisa/device.mk)
 
 # Inherit some common XPerience stuff
-$(call inherit-product, vendor/xperience/config/common.mk)
+$(call inherit-product, vendor/blaze/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lisa
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := xperience_lisa
-PRODUCT_MODEL := Xiaomi 11 Lite 5G NE
+PRODUCT_NAME := blaze_lisa
+PRODUCT_MODEL := Xiaomi 11 Lite NE 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
